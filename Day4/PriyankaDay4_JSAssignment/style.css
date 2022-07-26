@@ -1,0 +1,58 @@
+.container-fluid{
+    height: 100vh;
+    background-image: linear-gradient(rgb(175, 213, 228),rgb(82, 156, 185));
+    border: 3px solid rgb(60, 136, 167);
+    border-radius: 5px;
+  
+}
+#formid{
+    margin: 20px;
+}
+
+#img1{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+#heading{
+    margin: auto;
+    color: rgb(9, 92, 218);
+    display: inline;
+    text-align: center;
+    
+}
+#row1{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    background-color: rgb(200, 212, 224);
+}
+#logout{
+    margin-top: 10px;
+    float: right;
+}
+#t1{
+    border: 3px solid rgb(60, 136, 167) ;
+    font-family: 'Times New Roman, Helvetica, sans-serif';
+    font: normal;
+    font-size:medium;
+}
+hr{
+    color:rgb(60, 136, 167);
+    height: 5px;
+}
+#img2{
+    height: 100px;
+    width:100px;
+}
+/*
+.spin {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgba(255, 255, 255, .3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+  }*/

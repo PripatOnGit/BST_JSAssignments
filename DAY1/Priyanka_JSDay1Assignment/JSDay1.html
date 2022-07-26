@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+        <script src="script.js"></script>
+        <title>
+            JS-DAY1
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+  <body>
+    
+	<div id="div1">
+        <h1 id="h1id">Covid-19</h1>
+        <p id="p1id" onclick="myEvt()">CLICK ON PARA-->Coronaviruses are a family of viruses that can cause illnesses such as the common cold, severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS).</p>
+        <button type="button" onclick="showDate()">See Date</button>
+        <p id="p2id"></p>
+    </div>
+    
+    <button type="button" id="button1" onclick="changeToPink()">Change colour to Red</button>
+    <div id="div2" style="height:100px; width:100px; background-color: aqua;"></div>
+    <button type="button" id="button2" onclick="changeToVoilet()">Change colour to Blue</button>
+    <br>
+    <br>
+    <button type="button" onclick="showData()">Get Covid-19 Information</button>
+    <div id="info"></div>
+    <br>
+    <br>
+    <button type="button" id="buttonAlert" onclick="getAlert()">getAlert Here(window.alert())</button>
+    <br>
+    <br>
+    <button type="button" id="buttonConsole" onclick="consoleMessage()">See Console(console.log())</button> 
+    <br>
+    <br>
+    <button onclick="window.print()">Print this page with window.print()</button>
+  </body>
+</html>

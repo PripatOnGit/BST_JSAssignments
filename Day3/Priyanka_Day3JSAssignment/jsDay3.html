@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>HTML Events</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="loading()">
+	<script src="script.js"></script>
+    <!--onclick Event-->
+    <button id="evt1" onclick="showDate()">Today's Date</button>
+    <p id="pid1"></p><br><br>
+    <!--onchange Event-->
+    Enter Marks: <input type="number" name="marks" value="marks" onchange="marks()" id="m1"><br><br>
+    <!--onmousehover/onmouseout Event-->
+    <h1 id="h1id" onmouseover="onmouseoverEvt()" onmouseout="onmouseoutEvt()">This is Mousehover/Mouseout Event</h1><br><br>
+    <!--konkeydown-->
+    Enter Number: <input type="number" onkeydown="keydownEvt()" id="k1">
+  </body>
+</html>
